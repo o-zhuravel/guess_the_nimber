@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1920px;
+    height: 930px;
+    background-image: url(./image/1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(127,172,113);
+    display: flex;
+    flex-direction: column;
+}
+
+.act {
+    max-width: 1920px;
+    height: 930px;
+    background-image: url(./image/2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(127,172,113);
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper div {
+    width: 50%;
+    margin: 30% 5%;
+    padding: 2% 3%;
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.555);
+}
+
+.wrapper .hidden {
+    display: none;
+}
+
